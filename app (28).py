@@ -694,7 +694,7 @@ if "arquivos_salvos" not in st.session_state:
 if "uploader_key" not in st.session_state:
     st.session_state.uploader_key = 0
 
-st.title("📊 Sistema de Consolidação Gerencial CN")
+st.title("📊 Sistema de Consolidação Resumo Gerencial CN")
 st.markdown(
     """
     Este sistema consolida arquivos Excel por data.
