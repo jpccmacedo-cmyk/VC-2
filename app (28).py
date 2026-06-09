@@ -699,13 +699,6 @@ st.markdown(
     """
     Este sistema consolida arquivos Excel por data.
 
-    **Regras principais:**
-    - cada consolidado contém somente abas da data selecionada;
-    - ao gerar uma data específica, se a aba `Gerencial` do arquivo for dessa data, copia somente a `Gerencial` desse arquivo;
-    - se a `Gerencial` for de outra data, mas houver uma aba histórica da data selecionada, copia a aba histórica;
-    - se existirem duas opções para a mesma aba final, o sistema prioriza: consolidado parcial, depois `Gerencial`, depois histórico;
-    - ordem final: `COB`, `CUI`, `EDE`, `NOB`, `PVE`, `SOB`, `XAM`.
-    """
 )
 st.divider()
 
