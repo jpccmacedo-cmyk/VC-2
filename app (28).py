@@ -698,7 +698,7 @@ st.title("📊 Sistema de Consolidação Resumo Gerencial CN")
 st.markdown(
     """
     Este sistema consolida arquivos Excel por data.
-
+"""
 )
 st.divider()
 
